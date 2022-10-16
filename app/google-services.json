@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "401796826372",
+    "project_id": "spatify-8178c",
+    "storage_bucket": "spatify-8178c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401796826372:android:92b2f3457066723bb07c51",
+        "android_client_info": {
+          "package_name": "com.example.spatify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401796826372-1jkdv7ntrjqdq6dsd3t5uo96o6f5dc35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEv55vHpSz4o73OHdQgQHyzHE7GDP3fq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401796826372-1jkdv7ntrjqdq6dsd3t5uo96o6f5dc35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
