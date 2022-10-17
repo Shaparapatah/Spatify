@@ -1,6 +1,7 @@
 package com.example.spatify.di
 
 import android.content.Context
+import com.example.spatify.data.remote.MusicDatabase
 import com.google.android.exoplayer2.C
 import com.google.android.exoplayer2.ExoPlayer
 import com.google.android.exoplayer2.audio.AudioAttributes
@@ -15,6 +16,10 @@ import dagger.hilt.android.scopes.ServiceScoped
 @Module
 @InstallIn(ServiceComponent::class)
 object ServiceModule {
+
+    @Provides
+    @ServiceScoped
+    fun provideMusicDatabase() = MusicDatabase()
 
     @Provides
     @ServiceScoped
