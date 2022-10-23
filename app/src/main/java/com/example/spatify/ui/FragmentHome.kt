@@ -1,10 +1,11 @@
-package com.example.spatify
+package com.example.spatify.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.spatify.R
 
 class FragmentHome : Fragment() {
 
