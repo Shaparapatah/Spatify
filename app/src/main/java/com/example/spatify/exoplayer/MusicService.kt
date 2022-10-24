@@ -12,6 +12,7 @@ import com.example.spatify.exoplayer.callbacks.MusicPlaybackPreparer
 import com.example.spatify.exoplayer.callbacks.MusicPlayerEventListener
 import com.example.spatify.exoplayer.callbacks.MusicPlayerNotificationListener
 import com.example.spatify.utils.Constants.Companion.MEDIA_ROOT_ID
+import com.example.spatify.utils.Constants.Companion.NETWORK_ERROR
 import com.example.spatify.utils.Constants.Companion.SERVICE_TAG
 import com.google.android.exoplayer2.ExoPlayer
 import com.google.android.exoplayer2.Player
@@ -148,6 +149,7 @@ class MusicService : MediaBrowserServiceCompat() {
                             isPlayerInitialized = true
                         }
                     } else {
+                        mediaSession.sendSessionEvent(NETWORK_ERROR, null)
                         result.sendResult(null)
                     }
                 }
