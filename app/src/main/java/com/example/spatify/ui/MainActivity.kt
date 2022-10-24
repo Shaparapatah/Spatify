@@ -1,8 +1,9 @@
-package com.example.spatify
+package com.example.spatify.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.RequestManager
+import com.example.spatify.R
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
