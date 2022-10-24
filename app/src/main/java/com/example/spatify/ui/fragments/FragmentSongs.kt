@@ -1,4 +1,4 @@
-package com.example.spatify.ui
+package com.example.spatify.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
